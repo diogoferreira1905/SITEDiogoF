@@ -1,0 +1,59 @@
+.bg-img {
+    /* The image used */
+    background-image: url("/img/oeiras.jpg");
+    height: 100vh;
+    width: 100vw;
+
+    
+  
+   
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+    /* Needed to position the navbar */
+    position: fixed;
+
+  }
+  
+ 
+  /* The navbar */
+  .topnav {
+   
+    overflow:hidden;
+    background-color: #000925 ;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(245, 245, 245);
+    color: #000925;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000925;
+    color: white;
+    text-align: center;
+ }
+ body {
+    margin: 0;
+}
+
+
+

@@ -1,0 +1,94 @@
+.bg-img {
+  
+    
+  
+   
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  
+  
+  /* Needed to position the navbar */
+  position: fixed;
+
+
+}
+
+
+/* The navbar */
+.topnav {
+ overflow:hidden;
+  background-color: #000925 ;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  text-align: center;
+  color: rgb(245, 245, 245);
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+
+  background-color: rgb(245, 245, 245);
+  color: #000925;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000925;
+  color: white;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: inline-table;
+  }
+  .produto p{
+    background: #000925;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px 10px;
+  }
+  figure {
+    text-align: center;
+    text-indent: 0;
+    border: thin #000925;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+
+  }
+  .adicionar p{
+    position: center;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #000925;
+    color: white;
+  font-family: Arial, Helvetica, sans-serif;   
+  }
+
+  .adicionar a{
+    color:white;
+    text-decoration: none;
+  }
+  
+    
+  
